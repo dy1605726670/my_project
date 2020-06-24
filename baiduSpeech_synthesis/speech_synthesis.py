@@ -9,9 +9,9 @@ class myDialog(interface.Ui_MainWindow, QWidget): #
         super(myDialog, self).__init__()
         super().setupUi(MainWindow)
 
-        APP_ID = '20476069'
-        API_KEY = 'yBUPmW5B55IWdufG84kew2K1'
-        SECRET_KEY = 'chcdfHIhXgvE1dHURS41HmhqIR0HZWtA'
+        APP_ID = 'your app id'
+        API_KEY = 'your api key'
+        SECRET_KEY = 'your secret key'
 
         self.client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
